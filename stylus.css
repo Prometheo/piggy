@@ -1,0 +1,155 @@
+body {
+	background-color: #ADD8E6;
+	display: flex;
+	height: 800px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+
+}
+
+
+.rapa {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+}
+.central {
+	max-width: 28rem;
+	background-color: #fff;
+	border: 0 solid #e2e8f0;
+	border-bottom-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+	border-top-right-radius: 1.25rem;
+	padding: 2.5em;
+	width: 91.666667%;
+
+}
+.pigimage {
+	display: block;
+	margin: 3rem;
+}
+.logus {
+	border: 0 solid #e2e8f0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.filler {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	flex-direction: column;
+	display: flex;
+	border: 0 solid #e2e8f0
+}
+
+.inner-sentral {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+input, select {
+	width: 400px;
+	height: 50px;
+	margin-top: 5px;
+	border-radius: .25rem;
+	background-color: #edf2f7;
+	outline: 0;
+	border: 0 solid #e2e8f0;
+	padding-left: 1.25rem;
+}
+input::placeholder {
+	color: #a0aec0;
+}
+
+.spacer{
+	margin-top: 5px;
+}
+.tabon {
+	display: flex;
+	flex: 1 1;
+	border: 0 solid #e2e8f0
+}
+
+.Createbutton {
+	border-style: none;
+	padding: 0;
+	background-color: rgb(8,62,158);
+	font-size: .975rem;
+	font-weight: 700;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	white-space: nowrap;
+	padding-top: 1.25rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-bottom: 1.25rem;
+	border-bottom-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+	border-top-right-radius: 1.25rem;
+}
+
+.startW, label {
+	color: #083e9e;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: U8, sans-serif;
+	text-align: center;
+	margin: 0;
+}
+.future {
+	color: #4a5568;
+	text-align: center;
+	font-size: 0.875rem;
+	font-family: Karla,sans-serif;
+	margin: 0;
+	margin-top: 0.4rem;
+}
+
+.chocol, .means {
+	font-size: .80rem;
+	color: #4a5568;
+	margin-bottom: 5.25rem;
+	font-family: sans-serif;
+	font: bold;
+}
+.footer {
+	margin-top: 2rem;
+	margin-bottom: .5rem;
+	color: #fff;
+	font-family: sans-serif;
+	text-decoration: inherit;
+}
+button:hover {
+	opacity: 0.9;
+	background-color: rgb(6, 43, 111)
+}
+button, .footer {
+	cursor: pointer;
+}
+
+.footer:hover {
+	opacity: 0.95;
+	color: #a0aec0;
+}
